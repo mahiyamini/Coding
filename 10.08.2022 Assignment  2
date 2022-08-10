@@ -1,0 +1,27 @@
+#include<stdio.h>>
+int main()
+{
+	int n,r,s=0,t;
+	printf("Enter any number");
+	scanf("%d",&n);
+	t=n;
+	while(n>0)
+	{
+		r=n%10;
+		s=s+r;
+		n=n/10;
+	}
+	if(t%s==0)
+	printf("It is HARSHAD number");
+	else
+	printf("It is not HARSHAD number");
+	return 0;
+  }
+  
+  OUTPUT 1 :-
+  Enter any number 156
+  It is HARSHAD number
+  
+  OUTPUT 2 :-
+  Enter any number 22
+  It is not HARSHAD number
