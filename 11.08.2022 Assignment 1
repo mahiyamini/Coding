@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+	int n,p=1,r,s=0;
+	printf("Enter any number");
+	scanf("%d",&n);
+	while(n>0)
+	{
+		r=n%10;
+		s=s+r;
+		p=p*r;
+		n=n/10;
+	}
+	printf("%d",p-s);
+	return 0;
+}
+
+OUTPUT 1 :-
+Enter any number 234
+15
+
+OUTPUT 2 :-
+Enter any number 4221
+7
