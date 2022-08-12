@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	int n,r=0,sum=0;
+	printf("enter the number of coins ");
+	scanf("%d",&n);
+	while(sum<n)
+	{
+		r++;
+		sum+=r;
+	}
+	printf("%d",r);
+	return 0;
+	
+}
