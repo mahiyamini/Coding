@@ -1,0 +1,33 @@
+#include<stdio.h>
+int main()
+{
+	int a[50],n,i,fact=1,sum=0,m;
+	printf("Enter the array size");
+	scanf("%d",&n);
+	printf("Enter the array elements");
+	for(i=0;i<n;i++)
+	scanf("%d",&a[i]);
+	for(i=0;i<n;i++)
+	{
+		fact=1;
+		m=a[i];
+		while(m>1)
+		{
+		fact=fact*m;
+		m--;
+     	}
+	sum=sum+fact;
+	}
+	printf("%d",sum);
+	return 0;
+}
+
+OUTPUT 1 :-
+Enter the array size 5
+Enter the array elements 1 2 3 4 5
+153
+
+OUTPUT 2 :-
+Enter the array size 7
+Enter the array elements 1 1 2 2 3 3 4
+42
