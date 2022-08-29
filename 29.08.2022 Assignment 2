@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+#include<ctype.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
+    char num[1000],*s;
+    int i=0,f,n;
+    scanf("%s",num);
+    while(i<=9)
+    {
+    f=0;
+    for(s=num;*s!='\0';s++)
+    {
+        if(isdigit(*s))
+        {
+        n=*s-48;
+        if(n==i)
+        f++;
+    }}
+    i++;
+    printf("%d ",f);
+    }   
+    return 0;
+}
+
+OUTPUT :
+a11472o5t6
+0 2 1 0 1 1 1 1 0 0 
