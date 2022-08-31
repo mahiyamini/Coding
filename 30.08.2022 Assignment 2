@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+	char s[100],*e;
+	printf("Enter any string");
+	scanf("%s",s);
+	e=s;
+	while(*e!='\0')
+	{
+		if(*e=='a')
+		printf("A");
+		else
+		printf("%c",*e);
+		e++;
+	}
+}
+
+OUTPUT 1:-
+Enter any string aditya
+AdityA
+
+OUTPUT 2:-
+Enter any string alphabet
+AlphAbet
