@@ -1,0 +1,23 @@
+#include <stdlib.h>
+
+int main() {
+    char *s;
+    s = malloc(1024 * sizeof(char));
+    scanf("%[^\n]", s);
+    s = realloc(s, strlen(s) + 1);
+    //Write your logic to print the tokens of the sentence here
+    char *e;
+    e=s;
+while(*e!='\0')
+{   if(*e!=' ')
+{
+    printf("%c",*e);
+   }   
+   else {
+printf("\n");
+   }
+   e++;
+}
+    
+    return 0;
+}
