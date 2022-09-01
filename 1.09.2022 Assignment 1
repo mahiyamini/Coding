@@ -1,0 +1,28 @@
+#include<stdio.h>
+int eveodd(int n)
+{
+	if(n%2==0)
+	return 1;
+	else
+	return 0;
+}
+int main()
+{
+	int n,t;
+	printf("Enter any number");
+	scanf("%d",&n);
+	t=eveodd(n);
+	if(t==1)
+	printf("Even");
+	else
+	printf("Odd");
+	return 0;
+}
+
+OUTPUT 1 :-
+Enter any number 34
+Even
+
+OUTPUT 2 :-
+Enter any number 357
+Odd
