@@ -1,0 +1,32 @@
+#include<stdio.h>
+int arr[100],j=0;
+int printarr(int n)
+{
+	if(n<=0||j>n-1)
+	return 0;
+	else
+	{
+		printf("%d ",arr[j]);
+		j++;
+		printarr(n--);
+	}
+}
+int main()
+{
+	int n,i;
+	scanf("%d",&n);
+	for(i=0;i<n;i++)
+	scanf("%d",&arr[i]);
+	printarr(n);
+	return 0;
+}
+
+OUTPUT:-
+4
+1 2 3 4
+1 2 3 4
+
+OUTPUT:-
+5
+1 2 3 4 5
+1 2 3 4 5
