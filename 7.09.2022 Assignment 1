@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+	int a=0,b=1,sum=0,n;
+	scanf("%d",&n);
+	while(sum<n)
+	{
+		sum=a+b;
+		a=b;
+		b=sum;
+	}
+	if(sum==n)
+	printf("YES");
+	else
+	printf("NO");
+}
+
+OUTPUT 1 :-
+4
+NO
+
+OUTPUT 2:-
+13
+YES
