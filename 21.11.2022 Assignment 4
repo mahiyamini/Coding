@@ -1,0 +1,9 @@
+a=int(input('Enter first number: '))
+b=int(input('Enter Second Number: '))
+c=a/b
+print(c)
+
+OUTPUT :
+Enter first number: 3204
+Enter Second Number: 4
+801.0
