@@ -1,0 +1,28 @@
+#Program to read and print Student details
+
+sno=int(input('Enter Student ID:'))
+name=input('Enter Student Name:')
+gender=input('Enter the gender:')
+group=input('Enter Student group:')
+address=input('Enter Student Address:')
+phno=int(input('Enter Student Mobile number:'))
+print('Sno :',sno)
+print('Name :',name)
+print('Group :',group)
+print('Gender :',gender)
+print('Address :',address)
+print('Mobile No :',phno)
+
+OUTPUT :
+Enter Student ID:123
+Enter Student Name:Yamini
+Enter the gender:Female
+Enter Student group:MAIRCS
+Enter Student Address:Marripalem,Visakhapatnam
+Enter Student Mobile number:8876237298
+Sno : 123
+Name : Yamini
+Group : MAIRCS
+Gender : Female
+Address : Marripalem,Visakhapatnam
+Mobile No : 8876237298
