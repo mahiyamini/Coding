@@ -1,0 +1,14 @@
+#Program for calculating EMI
+
+p=int(input('Enter the principal amount: '))
+t=int(input('Enter the time peroid: '))
+r=float(input('Enter the rate of interest: '))
+si=(p*t*r)/100
+emi=(p+si)/(t*12)
+print('EMI : ',emi)
+
+OUTPUT : 
+Enter the principal amount: 10000
+Enter the time peroid: 2
+Enter the rate of interest: 10
+EMI :  500.0
