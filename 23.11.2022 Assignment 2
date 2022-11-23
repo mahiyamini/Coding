@@ -1,0 +1,12 @@
+#Program to check whether two numbers are equal or not 
+a=int(input('Enter value of a'))
+b=int(input('Enter value of b'))
+if a==b:
+    print('a and b are equal')
+else:
+    print('a and b are not equal')
+    
+OUTPUT :
+Enter value of a 35
+Enter value of b 35
+a and b are equal
