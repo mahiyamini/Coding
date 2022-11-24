@@ -1,0 +1,14 @@
+s1=int(input('Enter subject 1 marks'))
+s2=int(input('Enter subject 2 marks'))
+s3=int(input('Enter subject 3 marks'))
+if s1>=35 and s2>=35 and s3>=35:
+    print('PASS')
+else:
+    print('FAIL')
+    
+
+OUTPUT :
+Enter subject 1 marks 90
+Enter subject 2 marks 34
+Enter subject 3 marks 67
+FAIL
