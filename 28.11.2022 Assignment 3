@@ -1,0 +1,12 @@
+#program to find the main balance after credting
+bal=int(input('Enter the balance'))
+cre=int(input('Enter the amount to be credited'))
+print('Amount Credited :',cre)
+print('Main Balance :',bal+cre)
+
+
+OUTPUT :
+Enter the balance 1000
+Enter the amount to be credited 3000
+Amount Credited : 3000
+Main Balance : 4000
