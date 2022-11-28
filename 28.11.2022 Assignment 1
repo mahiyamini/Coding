@@ -1,0 +1,10 @@
+#Program to check whether the pin is correct or not
+pin=int(input('Enter the PIN'))
+if pin==1234:
+    print('Continue the transaction')
+else:
+    print('Incorrect PIN, Try again later!')
+
+OUTPUT :
+Enter the PIN 1235
+Incorrect PIN, Try again later!
