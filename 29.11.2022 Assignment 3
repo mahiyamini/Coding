@@ -1,0 +1,26 @@
+#Program to find Student Result
+sno=int(input('Enter Student ID: '))
+sname=input('Enter Student Name: ')
+grp=input('Enter Student Group: ')
+s1=int(input('Enter Maths Marks: '))
+s2=int(input('Enter Cs Marks: '))
+s3=int(input('Enter AI Marks: '))
+print('ID: ',sno)
+print('NAME: ',sname)
+print('GROUP: ',grp)
+if s1>=35 and s2>=35 and s3>=35:
+    print('RESULT: PASS')
+else:
+    print('RESULT: FAIL')
+
+OUTPUT :
+Enter Student ID: 1234
+Enter Student Name: Yamini
+Enter Student Group: MAIRCS
+Enter Maths Marks: 34
+Enter Cs Marks: 56
+Enter AI Marks: 78
+ID:  1234
+NAME:  Yamini
+GROUP:  MAIRCS
+RESULT: FAIL
