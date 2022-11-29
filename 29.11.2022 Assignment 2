@@ -1,0 +1,38 @@
+#Program to calculate Employee tax
+empno=int(input('Enter Employee Number: '))
+empname=input('Enter Employee Name: ')
+desi=input('Enter Employee designation: ')
+bassal=int(input('Enter Employee Basic Salary: '))
+da=int(input('Enter Employee Daily Allowance: '))
+ta=int(input('Enter Employee Travelling Allowance: '))
+hra=int(input('Enter Employee House Rental Allowance: '))
+netsal=bassal+da+ta+hra
+print('SNo: ',empno)
+print('NAME: ',empname)
+print('DESIGNATION: ',desi)
+print('SALARY(including all allowances): ',netsal)
+if netsal>100000:
+    tax=netsal*10/100
+elif netsal>50000 and netsal<=100000:
+    tax=netsal*7/100
+elif netsal>40000 and netsal<=50000:
+    tax=netsal*4/100
+elif netsal>20000 and netsal<=40000:
+    tax=netsal*2/100
+else:
+    tax=0
+print('TAX: ',tax)
+
+OUTPUT :
+Enter Employee Number: 1234
+Enter Employee Name: Yamini
+Enter Employee designation: Software Engineer
+Enter Employee Basic Salary: 300000
+Enter Employee Daily Allowance: 12000
+Enter Employee Travelling Allowance: 5000
+Enter Employee House Rental Allowance: 15000
+SNo:  1234
+NAME:  Yamini
+DESIGNATION:  Software Engineer
+SALARY(including all allowances):  332000
+TAX:  33200.0
