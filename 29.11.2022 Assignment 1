@@ -1,0 +1,20 @@
+#Program to find the biggest of four numbers
+a=int(input('Enter Number 1'))
+b=int(input('Enter Number 2'))
+c=int(input('Enter Number 3'))
+d=int(input('Enter Number 4'))
+if a>b and a>c and a>d:
+    print('a is big')
+elif b>a and b>c and b>d:
+    print('b is big')
+elif c>a and c>b and c>d:
+    print('c is big')
+else:
+    print('d is big')
+    
+OUTPUT :
+Enter Number 1 5
+Enter Number 2 7
+Enter Number 3 3 
+Enter Number 4 9
+d is big
